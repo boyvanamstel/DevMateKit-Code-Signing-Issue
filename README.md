@@ -8,6 +8,7 @@ This example project uses CocoaPods to add DevMateKit, but the problem occurs wh
 
 1. Clone the project.
 1. Run `pod install`.
+1. Assign your own code signing identity.
 1. Archive (or build) the project.
 1. Check code signing on the binary, or simulate a download from a web server.
 
