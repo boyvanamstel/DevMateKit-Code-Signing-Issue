@@ -1,5 +1,7 @@
 # DevMateKit code signing issue after version 1.6
 
+**Resolved in DevMateKit 1.7.1**
+
 Adding DevMateKit to any project after version 1.6 results in a broken build, because `com.devmate.UpdateInstaller.xpc` isn't signed (correctly).
 
 This example project uses CocoaPods to add DevMateKit, but the problem occurs when adding it manually as well.
